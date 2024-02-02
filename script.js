@@ -32,6 +32,7 @@ class LinkedList {
     return this.head;
   }
   tail() {
+    if (this.size == 0) return "List is Empty";
     let current = this.head;
     let counter = 0;
     while (counter < this.size - 1) {
